@@ -1,0 +1,39 @@
+Running HiGHS 1.10.0 (git hash: fd86653): Copyright (c) 2025 HiGHS under MIT licence terms
+LP   has 6 rows; 6 cols; 12 nonzeros
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+00, 2e+00]
+  Bound  [0e+00, 0e+00]
+  RHS    [2e+01, 6e+01]
+Presolving model
+6 rows, 6 cols, 12 nonzeros  0s
+6 rows, 6 cols, 12 nonzeros  0s
+Presolve : Reductions: rows 6(-0); columns 6(-0); elements 12(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 6(250) 0s
+          6     1.4500000000e+02 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 6
+Objective value     :  1.4500000000e+02
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+LP   has 6 rows; 6 cols; 12 nonzeros
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+00, 2e+00]
+  Bound  [0e+00, 0e+00]
+  RHS    [2e+01, 6e+01]
+Solving LP without presolve, or with basis, or unconstrained
+Model status        : Optimal
+Objective value     :  1.4500000000e+02
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+
+Colunas = [30.0, 30.0, 20.0, 30.0, 0.0, 20.0]
+Colunas dual = [0.0, 0.0, 0.0, 0.0, 0.5, 0.0]
+Linhas = [50.0, 60.0, 50.0, 50.0, 30.0, 20.0]
+Linhas dual = [1.0, -0.0, 1.0, -0.0, 1.5, -0.0]
+Valido = True
+Dual Valido = True
