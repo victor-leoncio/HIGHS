@@ -7,7 +7,7 @@ Subject To
  C3: x2 + x3 >= 50
  C4: x3 + x4 >= 40
  C5: x4 + x5 >= 30
- C6: x5 + x6 >= 20
+ C6: x6 >= 20
 
 Bounds
  0 <= x1

@@ -1,9 +1,9 @@
 Running HiGHS 1.10.0 (git hash: fd86653): Copyright (c) 2025 HiGHS under MIT licence terms
-MIP  escala_enfermeiros has 6 rows; 6 cols; 11 nonzeros; 6 integer variables (0 binary)
+MIP  has 6 rows; 6 cols; 11 nonzeros; 6 integer variables (0 binary)
 Coefficient ranges:
   Matrix [1e+00, 1e+00]
   Cost   [1e+00, 2e+00]
-  Bound  [0e+00, 0e+00]
+  Bound  [2e+01, 2e+01]
   RHS    [2e+01, 6e+01]
 Presolving model
 5 rows, 6 cols, 10 nonzeros  0s
@@ -27,12 +27,11 @@ Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap 
          1       0         1 100.00%   145             145                0.00%        0      0      0         0     0.0s
 
 Solving report
-  Model             escala_enfermeiros
   Status            Optimal
   Primal bound      145
   Dual bound        145
   Gap               0% (tolerance: 0.01%)
-  P-D integral      0.000101327896118
+  P-D integral      0.000122703354934
   Solution status   feasible
                     145 (objective)
                     0 (bound viol.)
@@ -49,4 +48,5 @@ Solving report
                     0 (strong br.)
                     0 (separation)
                     0 (heuristics)
-[30.0, 40.0, 10.0, 30.0, 0.0, 20.0]
+Solução ótima:
+x1 = [30.0, 40.0, 10.0, 30.0, 0.0, 20.0]

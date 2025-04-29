@@ -1,35 +1,36 @@
-NAME  NURSE_SCHED
-OBJSENSE
- MIN
-
+NAME          Enfermeiros
 ROWS
  N  COST
- G  C1
- G  C2
- G  C3
- G  C4
- G  C5
- G  C6
-
+ G  TURNO1
+ G  TURNO2
+ G  TURNO3
+ G  TURNO4
+ G  TURNO5
+ G  TURNO6
 COLUMNS
-    MARKER          ‘MARKER’    ‘INTORG’      ← início variáveis inteiras :contentReference[oaicite:2]{index=2}
-    x1    COST      1            C1           1
-    x2    COST      1            C2           1
-    x3    COST      1            C3           1
-    x4    COST      1.5          C4           1
-    x5    COST      2            C5           1
-    x6    COST      1            C6           1
-    MARKER          ‘MARKER’    ‘INTEND’      ← fim variáveis inteiras :contentReference[oaicite:3]{index=3}
-
+    X1       COST        1   TURNO1      1
+    X1       TURNO2      1
+    X2       COST        1   TURNO2      1
+    X2       TURNO3      1
+    X3       COST        1   TURNO3      1
+    X3       TURNO4      1
+    X4       COST        1.5 TURNO4      1
+    X4       TURNO5      1
+    X5       COST        2   TURNO5      1
+    X6       COST        1   TURNO1      1
+    X6       TURNO6      1
 RHS
-    RHS1   C1      50    C2    60    C3    50    C4    40    C5    30    C6    20
-
+    RHS1    TURNO1      50
+    RHS1    TURNO2      60
+    RHS1    TURNO3      50
+    RHS1    TURNO4      40
+    RHS1    TURNO5      30
+    RHS1    TURNO6      20
 BOUNDS
- LO BND    x1      0
- LO BND    x2      0
- LO BND    x3      0
- LO BND    x4      0
- LO BND    x5      0
- LO BND    x6      0
-
+ LO BND1      X1         0
+ LO BND1      X2         0
+ LO BND1      X3         0
+ LO BND1      X4         0
+ LO BND1      X5         0
+ LO BND1      X6         20
 ENDATA
